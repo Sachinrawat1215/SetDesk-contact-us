@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.container .left {
+    width: 45%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/contact\ bg.jpg");
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.left .logo {
+    display: flex;
+    font-family: 'Pacifico', cursive;
+    margin-left: 10%;
+    font-size: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.left .logo p {
+    margin-left: 20px;
+}
+
+.left .head-text {
+    margin-left: 50px;
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 250px;
+}
+
+.left .bottom {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+}
+
+.right {
+    background-color: #ecf0f1;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right .navlink ul li {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 6px 15px;
+}
+
+.right .navlink ul li.active{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.right .navlink ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.right .main-container{
+    width: 80%;
+    height: 700px;
+}
+
+.right .main-container h1{
+    font-size: 70px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.right .main-container .input-container{
+    width: 49%;
+    display: inline-block;
+}
+
+.right .main-container  label{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.right .main-container .input-container input{
+    font-size: 22px;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    background-color: #ecf0f1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right .main-container textarea{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    background-color: #ecf0f1;
+    width: 85%;
+    resize: none;
+    margin-top: 20px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 4px 10px;
+}
+
+.right button{
+    font-size: 20px;
+    color: white;
+    margin: 25px 5px;
+    background-color: black;
+    border: none;
+    padding: 8px 23px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#email-head{
+    font-size: 16px;
+}
+
+.right .email-us{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.right .bottom{
+    display: flex;
+    font-size: 18px;
+}
+
+.right .bottom p{
+    margin: 0 6px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
